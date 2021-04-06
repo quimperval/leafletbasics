@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" onclick="captureClick(event)">
+	
+	<head>
+		<title>LeafLet test</title>
+	
+	</head>
+
+
+	<body>
+		<h1>Example 18: Point tracker</h1>
+
+		<p>
+			Click your mouse anywhere on this webpage to capture itś location. After capturing two locations, click the "Distance apart" button to display their separation in pixels. Click again for additional points.
+		</p>
+		<!--Placeholders for displaying the two points positions-->
+		Point 1: <span id="pt1"></span>
+		<br>
+		Point 2: <span id="pt2"></span>
+		<br><br>
+		<input type="button" id="btn" value="Distance apart"
+				onclick="displayDistance(event);">
+		<br><br>
+		
+		<div id="message"></div>
+
+		<script type="text/javascript" src="js/main18.js"></script>
+	</body>
+
+</html>
