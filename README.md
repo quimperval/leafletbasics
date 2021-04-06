@@ -2,6 +2,7 @@
 This repository has the very basics of the leaflet library to show points, polygons and show maps with the open street maps layers.
 
 #Index 
+
 	1. **firstexample.html:** First example: Just a hello world
 
 	2. **example2.html:** Second example: Load a map
